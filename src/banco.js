@@ -27,7 +27,7 @@ class Banco {
         this.sacar(valor);
         contaDestino.depositar(valor);
         this.transacoes.push({ tipo: 'Transferência', valor, destino: contaDestino.nome });
-        console.log(this.transacoes)
+        //console.log(this.transacoes)
     }
 
     // Método 4: Obter saldo atual
